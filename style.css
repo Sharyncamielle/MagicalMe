@@ -1,0 +1,80 @@
+/*Custom Cursor Images https://codepen.io/fmressel/pen/djwvJVLinks to an external site.  Search for Unicode using https://emojipedia.org/Links to an external site.  and replace characters before .png*/
+
+/*Rainbow*/
+.HousewithGarden {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3e1.png) 36 36, auto;
+}
+
+section{
+  display: flex;
+}
+
+p{
+  font-size: 20px;
+}
+
+/*Rainbow*/
+.ArtistPalette {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3a8.png) 36 36, auto;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #9266CC;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125px;
+  left: 110%;
+
+}
+
+.realestate:hover .tooltiptext{
+  visibility: visible;
+}
+
+
+.tooltiptext{
+  visibility:hidden;
+}
+
+.painting:hover .tooltiptext{
+  visibility: visible;
+}
+figure{
+  position: sticky;
+  top: 3rem
+}
+
+/*Rainbow*/
+.Chair {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1fa91.png) 36 36, auto;
+}
+
+figure{
+  align-self: flex-start;
+  display: flex;
+  top: 3rem;
+  position: sticky;
+}
+
+body{
+  max-width: 100rem;
+  margin: 1rem auto;
+}
+
+
+body{
+  background-color: #F0FFFF;
+}
+
+.Magical{
+  text-align: center;
+}
+
+.livingroominterior:hover .tooltiptext{
+  visibility: visible;
