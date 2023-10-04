@@ -5,5 +5,5 @@ function palmLeaf(){
     return true;
   }
   alert("Try again")
-  return fale;
+  return false;
 }
